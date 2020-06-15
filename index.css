@@ -1,0 +1,50 @@
+body{
+	width: 95%;
+	max-width: 800px;
+	margin: auto;
+	background: url(img/fundo.gif);
+}
+
+@font-face {
+  font-family: FjallaOne;
+  src: url(fonts/FjallaOne-Regular.ttf);
+ }
+
+* {
+	font-family: FjallaOne;
+	color:#fff;
+}
+
+h1 {
+	font-size:30px;
+}
+
+.logo {
+ height: 250px;
+}
+
+.descricao {
+font-family: verdana;
+}
+
+main {
+	background: #fd00bb6b;
+	padding: 30px 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.logo, .band-name, .headLine {
+	margin: 0;
+	text-align: center;
+}
+
+.facebook, .instagram, .youtube  {
+height: 38px;
+text-align: center;
+}
+
+h6 {
+	font-size:20px;
+	text-align: center;	
+}
